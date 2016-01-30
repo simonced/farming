@@ -1,0 +1,118 @@
+/* this is the farm layout for the farm */
+
+body {
+	background-color: #093;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 0.3em 0.5em;
+	margin: 0;
+}
+
+.farm {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: #75D160;
+}
+
+
+/*======================================================================*/
+						/*DOCK and TOOL BARS and ICONS*/
+/*======================================================================*/
+
+/* can be generally used in all the app */
+.disabled {
+	cursor: wait;
+}
+
+.active {
+	box-shadow: 0 0 10px blue;
+}
+
+#dock-container {
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	width:100%;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+#dock {
+	box-sizing: border-box;
+	/*position: relative;*/
+	display: inline-block;
+	padding: 5px;
+	/*height: 50px;*/
+
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid grey;
+	border-bottom: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	/*size: 12px;*/
+}
+
+/*#toolbar {*/
+/*	position: absolute;*/
+/*	bottom:10px;*/
+/*}*/
+
+.icon {
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: 5px;
+
+	background-color: white;
+	border: 2px solid grey;
+	border-left-color: lightgrey;
+	border-top-color: lightgrey;
+	border-radius: 100%;
+
+	width: 60px;
+	height: 60px;
+	line-height: 50px;
+	text-align: center;
+	/*overflow: hidden;*/
+
+	cursor: pointer;
+}
+
+/*label for the icon*/
+.label {
+	font-size: smaller;
+	border-radius: 3px;
+	padding: 2px 5px;
+	font-weight: bold;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 90;
+	line-height: normal;
+}
+
+.label-default {
+	color: white;
+	background: grey;
+}
+
+/* tools */
+.icon-tool {
+	background-color: lightgrey;
+	border-left-color: white;
+	border-top-color: white;
+}
+
+/* separator */
+.icon-separator {
+	width: 2px;
+	height: 40px;
+	margin: 10px 5px;
+	cursor: default;
+}

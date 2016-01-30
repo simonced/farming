@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0	Session.vim	/^normal! 0$/;"	m
+Prop	js/props.js	/^function Prop(node_) {$/;"	r
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+_activateIcon	js/dock.js	/^	,_activateIcon: function(icon_) {$/;"	r
+activateSeed	js/dock.js	/^	,activateSeed: function(seed_) {$/;"	r
+activateTool	js/dock.js	/^	,activateTool: function(tool_) {$/;"	r
+break	js/props.js	/^				break;$/;"	r
+displayState	js/props.js	/^	this.displayState = function() {$/;"	r
+dock	js/dock.js	/^var dock = {$/;"	r
+elem	js/dock.js	/^	elem : null,$/;"	r
+elem	js/dock.js	/^dock.elem = $('#dock')[0];$/;"	r
+farm	js/props.js	/^var farm = farm || {};$/;"	r
+found	js/props.js	/^				found = true;$/;"	r
+found	js/props.js	/^		var found = false;$/;"	r
+g:this_obsession	Session.vim	/^let g:this_obsession = v:this_session$/;"	v
+g:this_obsession_status	Session.vim	/^let g:this_obsession_status = 2$/;"	v
+g:this_session	Session.vim	/^let g:this_session = v:this_session$/;"	v
+getState	js/props.js	/^	this.getState = function() {$/;"	r
+growingTime	js/props.js	/^	this.growingTime = 10;	\/\/ time in seconds$/;"	r
+growingTime	js/vars.js	/^	wheat: {waterQty: 1, growingTime: 10, actOn: "plowed"}$/;"	r
+highlightProps	js/props.js	/^farm.highlightProps = function(prop_) {$/;"	r
+highlightPropsClear	js/props.js	/^farm.highlightPropsClear = function() {$/;"	r
+isGrowing	js/props.js	/^	this.isGrowing = function() {$/;"	r
+isGrown	js/props.js	/^	this.isGrown = function() {$/;"	r
+isPlowable	js/props.js	/^	this.isPlowable = function() {$/;"	r
+isSeedable	js/props.js	/^	this.isSeedable = function() {$/;"	r
+isWaterable	js/props.js	/^	this.isWaterable = function() {$/;"	r
+node	js/props.js	/^	this.node = node_;$/;"	r
+nodeState	js/props.js	/^	var nodeState = $(this).attr('data-state');$/;"	r
+plow	js/props.js	/^	this.plow = function() {$/;"	r
+plow	js/vars.js	/^	plow: { actOn: '' },$/;"	r
+prop	js/props.js	/^	var prop = new Prop($(this)[0]);$/;"	r
+prop_	js/props.js	/^			prop_==="" ||$/;"	r
+props	js/dock.js	/^			var props = farm.highlightProps(tool.actOn);$/;"	r
+props	js/props.js	/^farm.props = [];$/;"	r
+propsStates	js/vars.js	/^var propsStates = ['plowed', 'seeded', 'growing', 'grown'];$/;"	r
+return	js/dock.js	/^			return;$/;"	r
+s:l	Session.vim	/^let s:l = 1 - ((0 * winheight(0) + 15) \/ 31)$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+seed	js/dock.js	/^		var seed = seeds[seedName];$/;"	r
+seed	js/props.js	/^	this.seed = function() {$/;"	r
+seedName	js/dock.js	/^		var seedName = $(seed_).attr('data-seed-name');$/;"	r
+seedType	js/props.js	/^	this.seedType = null;$/;"	r
+seeds	js/dock.js	/^	seeds: []$/;"	r
+seeds	js/vars.js	/^var seeds = {$/;"	r
+setState	js/props.js	/^	this.setState = function(state_) {$/;"	r
+state	js/props.js	/^				this.state = state_;$/;"	r
+state	js/props.js	/^			this.state = "plowed";$/;"	r
+state	js/props.js	/^			this.state = "seeded";$/;"	r
+state	js/props.js	/^		var state = "unknown";$/;"	r
+state	js/props.js	/^	this.state = null;$/;"	r
+tool	js/dock.js	/^		var tool = tools[toolName];$/;"	r
+toolName	js/dock.js	/^		var toolName = $(tool_).attr('data-tool-name');$/;"	r
+tools	js/dock.js	/^	tools: [],$/;"	r
+tools	js/vars.js	/^var tools = {$/;"	r
+watercan	js/vars.js	/^	watercan: { actOn: 'seeded' }$/;"	r
+wateringQty	js/props.js	/^	this.wateringQty = 1;	\/\/ water quatity, 1 unit as default$/;"	r
+wheat	js/vars.js	/^	wheat: {waterQty: 1, growingTime: 10, actOn: "plowed"}$/;"	r
+zt	Session.vim	/^normal! zt$/;"	m

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Farming game sample</title>
+	<link rel="stylesheet" href="css/farm.css">
+	<link rel="stylesheet" href="css/props.css">
+</head>
+<body>
+
+<h1>This page is a sample of functions for the props in the game.</h1>
+
+<!--Farm land-->
+<div class="farm">
+	<h2> Farm area </h2>
+	<p> Simulating a prop just newly append to the game screen </p>
+	<div class="prop prop-wheat"></div>
+	<div class="prop prop-wheat" data-state="plowed"></div>
+	<div class="prop prop-wheat" data-state="seeded"></div>
+	<div class="prop prop-wheat" data-state="growing" data-growingStart="2015-04-17-14-25-15"></div>
+	<div class="prop prop-wheat" data-state="grown"></div>
+	<!--Some little status icons could be nice...-->
+</div>
+
+<!--TODO should be a separate module to handle the dock itself-->
+<div id="dock-container">
+	<div id="dock">
+		<!--<div id="toolbar">-->
+			<!--TODO find the name of the tool to prepare the soil before seeding...-->
+			<div class="icon icon-tool icon-tool-plow" data-tool-name="plow">Plow</div>
+			<div class="icon icon-tool icon-tool-watercan" data-tool-name="watercan">Watercan</div>
+
+			<div class="icon icon-separator"></div>
+
+			<div class="icon icon-seed icon-seed-wheat" data-seed-name="wheat">
+				Wheat
+				<span class="label label-default">5</span>
+			</div>
+			<div class="icon icon-seed icon-seed-corn" data-seed-name="corn">Corn</div>
+			<div class="icon icon-seed icon-seed-carrot" data-seed-name="carrot">Carrot</div>
+			<div class="icon icon-seed icon-seed-potato" data-seed-name="potato">Potato</div>
+		<!--</div>-->
+	</div>
+</div>
+
+<!--======================================================================-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/vars.js"></script>
+<script src="js/props.js"></script>
+<script src="js/dock.js"></script>
+
+</body>
+</html>

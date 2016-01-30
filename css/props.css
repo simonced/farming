@@ -1,0 +1,31 @@
+/*
+ * @author Simon Cedric
+ * @update 2015-06-06
+ */
+
+/*Basic props selectors*/
+.prop {
+	float: left;
+	/*display: inline-block;*/
+	box-sizing: border-box;
+
+	background-color: #87493A;	/* base bg color */
+	border: 2px solid #361D17;	/* darker border */
+	border-top-color: #ED8066;	/* lighter border */
+	border-left-color: #ED8066;
+	color: white;
+
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	text-align: center;
+}
+
+.prop-wheat {
+	color: yellow;
+	text-shadow: black 0px 0px 5px;
+}
+
+.prop-activable {
+	box-shadow: 0 0 10px blue;
+}
