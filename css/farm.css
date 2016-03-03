@@ -4,6 +4,8 @@ body {
 	background-color: #093;
 }
 
+/* new class */
+
 h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 0.3em 0.5em;
