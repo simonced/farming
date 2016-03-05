@@ -6,7 +6,7 @@ var dock = {
 
 	,activateSeed: function(seed_) {
 
-		var seedName = $(seed_).attr('data-seed-name');
+		var seedName = $(seed_).data('seed-name');
 		var seed = seeds[seedName];
 		if(!seed) {
 			console.log( "The seed "+seedName+" is missing from vars.js!" );
@@ -31,7 +31,7 @@ var dock = {
 	 */
 	,activateTool: function(tool_) {
 
-		var toolName = $(tool_).attr('data-tool-name');
+		var toolName = $(tool_).data('tool-name');
 		var tool = tools[toolName];
 		if(!tool) {
 			console.log( "The tool "+toolName+" is missing from vars.js!" );
