@@ -88,7 +88,7 @@ function Prop(node_) {
 		return state;
 	};
 
-	// sets the state of the crop by displaying it
+	// display the state of the crop on itself
 	this.displayState = function() {
 		// very crude way of handling the display of the state for now
 		$(this.node).empty().append( this.getState() );
@@ -102,7 +102,6 @@ function Prop(node_) {
 	this.isWaterable = function() {
 		return this.state === "seeded";
 	};
-
 	this.isGrowing = function() {
 		return this.state==="growing";
 	};
